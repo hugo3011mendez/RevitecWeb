@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba con IA</title>
+
+    <style>
+        .modal-dialog {
+            width: 50em;
+            height: 50em;
+            margin: 0;
+            padding: 0;
+        }
+
+        .modal-content {
+            height: 50em;
+            border: none;
+        }
+
+        .modal-body {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50em;
+        }
+
+        .modal-body img {
+            width: 50em;
+            height: 50em;
+        }
+
+        .img-thumbnail{
+            width: 30em;
+            height: 30em;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#myModal').on('show.bs.modal', function (event) {
+            var img = $(event.relatedTarget).find('img');
+            var src = img.attr('src');
+            $(this).find('img').attr('src', src);
+        });
+    </script>
+</head>
+<body>
+    <div class="container">   
+        <div class="row">
+            <div class="col-md-3">
+              <a href="#" data-toggle="modal" data-target="#myModal">
+                <img src="images/image1-thumb.jpg" class="img-thumbnail">
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#" data-toggle="modal" data-target="#myModal">
+                <img src="images/image2-thumb.jpg" class="img-thumbnail">
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#" data-toggle="modal" data-target="#myModal">
+                <img src="images/image3-thumb.jpg" class="img-thumbnail">
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#" data-toggle="modal" data-target="#myModal">
+                <img src="images/image4-thumb.jpg" class="img-thumbnail">
+              </a>
+            </div>
+        </div>    
+    </div>
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/image1-thumb.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>      
+</body>
+</html>
