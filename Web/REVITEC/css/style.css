@@ -36,20 +36,16 @@ img.zoom {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  
+  -ms-transition: all .2s ease-in-out;  
 }
 
-.transition {
-  
-  -webkit-transform: scale(2.5); 
+.transition {  
+  -webkit-transform: scale(2.0); 
   box-shadow: 1px 15px 10px rgba(0,0,0,0.7);
-  -moz-transform: scale(2.5);
-  -o-transform: scale(2.5);
-  transform: scale(2.5);
-
-		
-  }
+  -moz-transform: scale(2.0);
+  -o-transform: scale(2.0);
+  transform: scale(2.0);		
+}
 /*----------------------- fin imagen zoom -----------------*/
 
 /*---------------botones-------------------------------------*/
@@ -961,9 +957,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_promo .breadcrumb li a.active {
   color: #FF802C;
 }
-}
+
 /* End Banner Area promocion */
-.
+
 /* Banner Area impermebilizacion */
 .banner_area_impermeabilizacion {
   background: url("../imagenes/banner-imperme.jpg") no-repeat fixed;
