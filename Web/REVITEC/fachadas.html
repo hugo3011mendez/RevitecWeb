@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,10 +18,10 @@
     <!-- Camera Slider -->
     <link rel="stylesheet" href="otros/camera-slider/camera.css">
     <!-- Owlcarousel CSS-->
-	<link rel="stylesheet" type="text/css" href="otros/owl_carousel/owl.carousel.css" media="all">
-  <link rel="stylesheet" type="text/css" href="css/botones.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="otros/owl_carousel/owl.carousel.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/botones.css" media="all" />
     <!--Theme Styles CSS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,179 +29,185 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
-        <style>
-            .footer_area .copyright_area ul{
-                display:inline-block;
-                list-style-type: none;
-            }
+    <style>
+      .footer_area .copyright_area ul{
+        display:inline-block;
+        list-style-type: none;
+      }
 
-            .footer_area .copyright_area ul li a{
-                margin-left: 5em;
-            }
-        /* Media query Logo */
-        @media (max-width: 991px) {
-            .container .col-md-2 .navbar-header a img{
-                width: 175px;
-            }
+      .footer_area .copyright_area ul li a{
+        margin-left: 5em;
+      }
 
+      /* Media query Logo */
+      @media (max-width: 991px) {
+        .container .col-md-2 .navbar-header a img{
+          width: 175px;
         }
-
+      }
  
-        body {
-          font-family: 'Source Sans Pro', sans-serif;
-        }
+      body {
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+              
+      #gridGallery {
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+      }
         
-      
-        #gridGallery {
-          max-width: 1170px;
-          margin-left: auto;
-          margin-right: auto;
-        }
+      h2,
+      .ms-WPBody h2 {
+        color: #000;
+      }
         
-        h2,
-        .ms-WPBody h2 {
-          color: #000;
-        }
+      .box h3 {
+        color: rgb(255, 255, 255);
+        font-family: 'Source Sans Pro';
+        font-weight:700;
+        text-align: center
+      }
         
-        .box h3 {
-          color: rgb(255, 255, 255);
-          font-family: 'Source Sans Pro';
-          font-weight:700;
-          text-align: center
-        }
+      section {
+        margin: 25px 0;
+      }
         
-        section {
-          margin: 25px 0;
-        }
+      #gridGallery .row {
+        background-color: white;
+      }
         
-        #gridGallery .row {
-          background-color: white;
-        }
+      .box {
+        background-position: center center;
+        background-size: cover;
+        border: 3px solid rgb(228, 158, 9);
+        transition: opacity .25s;
+        overflow: hidden;
+        top:20px;
+        bottom:150px;
+      }
         
-        .box {
-          background-position: center center;
-          background-size: cover;
-          border: 3px solid rgb(228, 158, 9);
-          transition: opacity .25s;
-          overflow: hidden;
-          top:20px;
-          bottom:150px;
-        }
+      .hiddenText {
+        display: none !important;
+      }
         
-        .hiddenText {
-          display: none !important;
-        }
+      .box:hover {
+        cursor: pointer;
+        z-index: 1;
+      }
         
-        .box:hover {
-          cursor: pointer;
-          z-index: 1;
-        }
+      #boxuno,
+      #boxdos,
+      #boxsiete,
+      #boxnueve,
+      #boxdiez,
+      #boxtrece,
+      #boxcatorce,
+      #boxdieciseis,
+      #boxocho
+      {
+        height: 600px;
+      }
         
-        #boxuno,
-        #boxdos,
-        #boxsiete,
-        #boxnueve,
-        #boxdiez,
-        #boxtrece,
-        #boxcatorce,
-        #boxdieciseis,
-        #boxocho
-        {
-          height: 600px;
-        }
+      #boxtres,
+      #boxcuatro,
+      #boxcinco,
+      #boxseis,
+      #boxdoce,
+      #boxonce,
+      #boxquince
+      {
+        height:300px;
+      }
         
-        #boxtres,
-        #boxcuatro,
-        #boxcinco,
-        #boxseis,
-        #boxdoce,
-        #boxonce,
-        #boxquince
-         {
-          height:300px;
-        }
+      #boxuno {
+        background-image: url("imagenes/fachadas/urzaiz91.jpg");
+      }
         
-        #boxuno {
-          background-image: url("imagenes/fachadas/urzaiz91.jpg");
-        }
+      #boxocho {
+        background-image: url("imagenes/fachadas/abouza.jpg");
+      }
         
-        #boxocho {
-          background-image: url("imagenes/fachadas/abouza.jpg");
-        }
+      #boxdos {
+        background-image: url("imagenes/fachadas/brasil19.jpg");
+      }
         
-        #boxdos {
-          background-image: url("imagenes/fachadas/brasil19.jpg");
-        }
+      #boxsiete {
+        background-image:url("imagenes/fachadas/urzaiz90.jpg");
+      }
         
-        #boxsiete {
-          background-image:url("imagenes/fachadas/urzaiz90.jpg");
-        }
+      #boxtres {
+        background-image: url("imagenes/fachadas/castrelos113.jpg");
+      }
         
-        #boxtres {
-          background-image: url("imagenes/fachadas/castrelos113.jpg");
-        }
+      #boxseis {
+        background-image: url("imagenes/sate/monteferro.jpg");
+      }
         
-        #boxseis {
-          background-image: url("imagenes/sate/monteferro.jpg");
-        }
+      #boxcuatro {
+        background-image: url("imagenes/sate/poboadores.jpg");
+      }
         
-        #boxcuatro {
-          background-image: url("imagenes/sate/poboadores.jpg");
-        }
-        
-        #boxcinco {
-          background-image: url("imagenes/sate/matama.jpg");
-        }
-        #boxnueve {
-          background-image: url("imagenes/sate/barcelona21.jpg");
-        }
-        #boxdiez {
-          background-image: url("imagenes/sate/samil.jpg");
-        }
-        #boxquince {
-          background-image: url("imagenes/sate/penadefrancia.jpg");
-        }
-        #boxdoce {
-          background-image: url("imagenes/fachadas/corujo.jpg");
-        }
-        #boxtrece {
-          background-image: url("imagenes/fachadas/piymargall96.jpg");
-        }    
-        #boxcatorce {
-          background-image: url("imagenes/fachadas/cangas12.jpg");
-        }
-        #boxonce {
-          background-image: url("imagenes/fachadas/debalboa.jpg");
-        }
-        #boxdieciseis {
-          background-image: url("imagenes/fachadas/ventilada_baiona11.jpg");
-        }
+      #boxcinco {
+        background-image: url("imagenes/sate/matama.jpg");
+      }
 
-        .full {
-          float: none;
-          height: 600px !important;
-          width: 1170px;
-          z-index: 2;
-        }
+      #boxnueve {
+        background-image: url("imagenes/sate/barcelona21.jpg");
+      }
+
+      #boxdiez {
+        background-image: url("imagenes/sate/samil.jpg");
+      }
+
+      #boxquince {
+        background-image: url("imagenes/sate/penadefrancia.jpg");
+      }
+
+      #boxdoce {
+        background-image: url("imagenes/fachadas/corujo.jpg");
+      }
         
-        #gridH {
-          background-color: #eee;
-          min-height: 600px;
-          margin-bottom: 50px;
-        }
+      #boxtrece {
+        background-image: url("imagenes/fachadas/piymargall96.jpg");
+      }    
         
-        #gridH .row {
-          margin-top: 150px;
-        }
+      #boxcatorce {
+        background-image: url("imagenes/fachadas/cangas12.jpg");
+      }
         
-        #gridH .row .full {
-          margin-top: -150px;
-        }
+      #boxonce {
+        background-image: url("imagenes/fachadas/debalboa.jpg");
+      }        
         
-        .full:hover {
-          transform: scale(1);
-          box-shadow: none;
-        }
+      #boxdieciseis {
+        background-image: url("imagenes/fachadas/ventilada_baiona11.jpg");
+      }
+        
+      .full {
+        float: none;
+        height: 600px !important;
+        width: 1170px;
+        z-index: 2;
+      }
+        
+      #gridH {
+        background-color: #eee;
+        min-height: 600px;
+        margin-bottom: 50px;
+      }        
+        
+      #gridH .row {
+        margin-top: 150px;
+      }        
+        
+      #gridH .row .full {
+        margin-top: -150px;
+      }        
+        
+      .full:hover {
+        transform: scale(1);
+        box-shadow: none;
+      }
         
         .opacity {
           opacity: .8;
@@ -366,16 +372,15 @@
           }
           /* SHAREPOINT ONLY */
         }
-        </style>
-        </head>        
+    </style>
+  </head>        
 
-</head>
-<body>
-     <!-- Preloader -->
-     <div class="preloader"></div>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader"></div>
 
-     <!-- Header_Area -->
-     <nav class="navbar navbar-default header_aera" id="main_navbar">
+    <!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera" id="main_navbar">
          <div class="container">
              <!-- Brand and toggle get grouped for better mobile display -->
              <div class="col-md-2 p0">
@@ -410,7 +415,6 @@
                          </li>
                          <li><a href="galeria.html">Galeria</a></li>
                          <li><a href="contacto.html">Contacto</a></li>
-                         <li><a href="noticias.html">Noticias</a></li>
                      </ul>
                  </div><!-- /.navbar-collapse -->
              </div>
