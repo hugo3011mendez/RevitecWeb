@@ -700,8 +700,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area .breadcrumb li a.active {
   color: #FF802C;
 }
-
 /* End Banner Area */
+
 /* Banner Area error */
 .banner_area_error {
   background: url("../imagenes/error404.png") no-repeat;
@@ -723,48 +723,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background-color: transparent;
   padding-top: 25px;
 }
-
-
 /* End Banner Area error*/
-/* Banner Area noticias */
-.banner_area_noticias {
-  background: url("../imagenes/banner-noticias.png") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_noticias:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_noticias h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_noticias .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_noticias .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_noticias .breadcrumb li a.active {
-  color: #FF802C;
-}
 
-/* End Banner Area noticias */
 /* Banner Area acustica */
 .banner_area_acustica {
   background: url("../imagenes/banner-acustica.jpg") no-repeat fixed;
@@ -804,7 +764,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Banner Area acustica */
 
-/*--------------------------------------------------*/
 /* Banner Area reformas */
 .banner_area_reformas {
   background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
@@ -844,7 +803,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Banner Area reformas */
 
-/*--------------------------------------------------*/
 /* Banner Area fachadas */
 .banner_area_fachadas {
   background: url("../imagenes/banner-fachadas.jpg") no-repeat fixed;
@@ -923,7 +881,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Banner Area cubiertas */
 
-/*--------------------------------------------------*/
 /* Banner Area promocion */
 .banner_area_promo {
   background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
@@ -963,7 +920,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Banner Area promocion */
 
-/* Banner Area impermebilizacion */
+/* Banner Area impermeabilizacion */
 .banner_area_impermeabilizacion {
   background: url("../imagenes/banner-imperme.jpg") no-repeat fixed;
   background-position: center;
@@ -1000,9 +957,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_impermeabilizacion .breadcrumb li a.active {
   color: #FF802C;
 }
-/* End Banner Area cubiertas */
+/* End Banner Area impermeabilizacion */
 
-/*--------------------------------------------------*/
 /* Banner Area pavimentos */
 .banner_area_pavimentos {
   background: url("../imagenes/banner-pavimentos.jpg") no-repeat fixed;
@@ -1042,7 +998,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Banner Area pavimentos */
 
-/*--------------------------------------------------*/
 /* Banner Area rehabilitacion */
 .banner_area_rehabilitacion {
   background: url("../imagenes/banner-rehabilitacion.jpg") no-repeat fixed;
@@ -1082,7 +1037,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End banner Area rehabilitacion */
 
-/*--------------------------------------------------*/
 /* About_us_area */
 .about_us_area {
   background: #479CC0;
@@ -1132,10 +1086,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .about_us_area .about_us2_pages {
   padding-top: 90px;
 }
-
 /* End about_us_area */
 
-/*--------------------------------------------------*/
 .what_we_area {
   background: #9A9A9A;
 }
@@ -1197,7 +1149,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-size: 35px;
 }
 
-/*--------------------------------------------------*/
 .our_feature_area {
   padding-bottom: 90px;
   background: #fefefe;
@@ -1243,7 +1194,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 20px;
 }
 
-/*--------------------------------------------------*/
 /* Our_services_area */
 .our_services_area {
   background: #2e3841;
@@ -1349,13 +1299,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:hover .gallery_hover ul, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:focus .gallery_hover ul {
   right: 0;
 }
+/* End our_services_area */
 
 /* grid-sizer css */
 .grid-sizer {
   width: 33.33333333%;
 }
-
-/* End our_services_area */
 
 /* Our_services_tow */
 .our_services_tow {
@@ -1434,7 +1383,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Our_services_tow */
 
-/*--------------------------------------------------*/
 .our_team_area {
   padding-bottom: 70px;
   background: #fefefe;
@@ -1508,7 +1456,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 50px;
 }
 
-/*--------------------------------------------------*/
 /* Our Partners Area */
 .our_partners_area {
   background: #f5f5f5;
@@ -1544,7 +1491,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Our Partners Area */
 
-/*--------------------------------------------------*/
 .featured_works {
   background: url("../imagenes/protfolio_bg.jpg") no-repeat fixed;
   background-position: center;
@@ -1642,7 +1588,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   left: 0;
 }
 
-/*--------------------------------------------------*/
 /* Latest_blog_area */
 .latest_blog_area {
   padding-bottom: 70px;
@@ -1769,7 +1714,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End blog_tow_area */
 
-/*--------------------------------------------------*/
 .call_min_area {
   background: #FF802C;
   text-align: center;
@@ -1800,7 +1744,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-left: 0;
 }
 
-/*--------------------------------------------------*/
 .building_construction_area .building_construction_row {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -1916,7 +1859,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   text-align: justify;
 }
 
-/*--------------------------------------------------*/
 /* Blog area */
 .blog_all .blog_row {
   padding: 100px 0;
@@ -2236,10 +2178,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #888;
   font-size: 14px;
 }
-
 /* End blog area */
 
-/*--------------------------------------------------*/
 .not_found_area {
   text-align: center;
   padding: 100px 0;
@@ -2297,13 +2237,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------*/
 /* Map Css */
 .contact_map iframe {
   height: 495px;
   width: 100%;
 }
-
 /* End Map Css */
 
 /* All contact Info Css */
@@ -2397,7 +2335,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End All contact Info Css */
 
-/*--------------------------------------------------*/
 .footer_area {
   background: url("../imagenes/footer.jpg") no-repeat;
   position: relative;
@@ -2567,7 +2504,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fefefe;
 }
 
-/*--------------------------------------------------*/
 @media (max-width: 1700px) {
   .slider_area_tow .slider_inner .camera_prev::after {
     left: 0px !important;
@@ -3028,6 +2964,5 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 10px;
   }
 }
-/*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
