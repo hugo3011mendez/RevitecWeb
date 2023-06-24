@@ -670,13 +670,15 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-bottom: 400px;
+  padding-bottom: 100px;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 .banner_area:after {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   left: 0;
   right: 0;
   bottom: 0;
@@ -702,14 +704,14 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* End Banner Area */
 
-/* Banner Area error */
-.banner_area_error {
+/* Error content */
+.error_content {
   background: url("../imagenes/error404.png") no-repeat;
   background-position: center;
   z-index: 1;
   padding-bottom:800px;
 }
-.banner_area_error:after {
+.error_content:after {
   content: "";
   position: absolute;
   top: 0;
@@ -723,319 +725,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background-color: transparent;
   padding-top: 25px;
 }
-/* End Banner Area error*/
-
-/* Banner Area acustica */
-.banner_area_acustica {
-  background: url("../imagenes/banner-acustica.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom:180px;
-}
-.banner_area_acustica:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_acustica h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_acustica .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_acustica .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_acusticas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area acustica */
-
-/* Banner Area reformas */
-.banner_area_reformas {
-  background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_reformas:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_reformas h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_reformas .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_reformas .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_reformas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area reformas */
-
-/* Banner Area fachadas */
-.banner_area_fachadas {
-  background: url("../imagenes/banner-fachadas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_fachadas:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_fachadas h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_fachadas .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_fachadas .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_fachadas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area fachadas */
-
-/* Banner Area cubiertas */
-.banner_area_cubiertas {
-  background: url("../imagenes/banner-cubiertas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 240px;
-}
-.banner_area_cubiertas:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_cubiertas h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_cubiertas .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_cubiertas .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_cubiertas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area cubiertas */
-
-/* Banner Area promocion */
-.banner_area_promo {
-  background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_promo:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_promo h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_promo .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_promo .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_promo .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area promocion */
-
-/* Banner Area impermeabilizacion */
-.banner_area_impermeabilizacion {
-  background: url("../imagenes/banner-imperme.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 150px;
-}
-.banner_area_impermeabilizacion:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 8, 0.6);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_impermeabilizacion h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_impermeabilizacion .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_impermeabilizacion .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_impermeabilizacion .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area impermeabilizacion */
-
-/* Banner Area pavimentos */
-.banner_area_pavimentos {
-  background: url("../imagenes/banner-pavimentos.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_pavimentos:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_pavimentos h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_pavimentos .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_pavimentos .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_pavimentos .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area pavimentos */
-
-/* Banner Area rehabilitacion */
-.banner_area_rehabilitacion {
-  background: url("../imagenes/banner-rehabilitacion.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_rehabilitacion:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_rehabilitacion h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_rehabilitacion .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_rehabilitacion .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_rehabilitacion .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End banner Area rehabilitacion */
+/* End Error content */
 
 /* About_us_area */
 .about_us_area {
