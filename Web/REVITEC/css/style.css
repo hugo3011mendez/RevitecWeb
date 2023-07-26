@@ -1547,6 +1547,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 #descripcion {
   text-align: justify;
+  color: black;
 }
 
 /* Blog area */
