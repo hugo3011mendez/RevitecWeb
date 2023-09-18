@@ -36,23 +36,19 @@ img.zoom {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  
+  -ms-transition: all .2s ease-in-out;  
 }
 
-.transition {
-  
-  -webkit-transform: scale(2.5); 
+.transition {  
+  -webkit-transform: scale(2.25); 
   box-shadow: 1px 15px 10px rgba(0,0,0,0.7);
-  -moz-transform: scale(2.5);
-  -o-transform: scale(2.5);
-  transform: scale(2.5);
-
-		
-  }
+  -moz-transform: scale(2.25);
+  -o-transform: scale(2.25);
+  transform: scale(2.25);
+}
 /*----------------------- fin imagen zoom -----------------*/
 
-/*---------------botones-------------------------------------*/
+/*--------------- botones -------------------------------------*/
 .btn3d {
   position:relative;
   top: -6px;
@@ -142,7 +138,7 @@ img.zoom {
   background-color: #bb39d7;
 }
 
-/*-----------------botones---------------------------------*/
+/*----------------- botones ---------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
 /*Color Variables*/
@@ -252,7 +248,6 @@ img.zoom {
   background-image: url(../imagenes/girologo.gif);
 }
 
-/*--------------------------------------------------*/
 /*Prefix Styles*/
 .m0 {
   margin: 0;
@@ -279,7 +274,7 @@ body section.row, body header.row, body footer.row {
   margin: 0;
 }
 
-/*Ancore*/
+/* Ancore */
 a, .btn, button {
   outline: none;
   transition: all 300ms linear 0s;
@@ -293,7 +288,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   transition: all 300ms linear 0s;
 }
 
-/*--------------------------------------------------*/
 /* Top header */
 .top_header_area {
   background: #111f29;
@@ -512,7 +506,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /* End Header Aera */
-/* End header area 2 */
+
+/* header area 2 */
 .header_aera_tow {
   background-color: transparent;
   position: relative;
@@ -541,9 +536,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
   background-color: transparent;
 }
+/* End header area 2 */
 
-/* header area 2 */
-/*--------------------------------------------------*/
 /* slider_area */
 .slider_area .slider_inner .camera_caption {
   height: 100%;
@@ -643,8 +637,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .slider_area .slider_inner .camera_fakehover {
   top: 20px;
 }
-
 /* End slider_area */
+
 /* slider_area_tow */
 .slider_area_tow .slider_inner .camera_caption div .container {
   width: 1170px !important;
@@ -664,9 +658,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .slider_area_tow .slider_inner .camera_next:after {
   right: 230px;
 }
-
 /* End slider_area_tow */
-/*--------------------------------------------------*/
+
 /* Banner Area */
 .banner_area {
   background: url("../imagenes/banner-contacto.png") no-repeat fixed;
@@ -704,8 +697,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area .breadcrumb li a.active {
   color: #FF802C;
 }
-
 /* End Banner Area */
+
 /* Banner Area error */
 .banner_area_error {
   background: url("../imagenes/error404.png") no-repeat;
@@ -727,9 +720,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background-color: transparent;
   padding-top: 25px;
 }
-
-
 /* End Banner Area error*/
+
 /* Banner Area noticias */
 .banner_area_noticias {
   background: url("../imagenes/banner-noticias.png") no-repeat fixed;
@@ -767,8 +759,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_noticias .breadcrumb li a.active {
   color: #FF802C;
 }
-
 /* End Banner Area noticias */
+
 /* Banner Area acustica */
 .banner_area_acustica {
   background: url("../imagenes/banner-acustica.jpg") no-repeat fixed;
@@ -807,7 +799,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #FF802C;
 }
 /* End Banner Area acustica */
-/*--------------------------------------------------*/
+
 /* Banner Area reformas */
 .banner_area_reformas {
   background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
@@ -846,7 +838,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #FF802C;
 }
 /* End Banner Area reformas */
-/*--------------------------------------------------*/
+
 /* Banner Area fachadas */
 .banner_area_fachadas {
   background: url("../imagenes/banner-fachadas.jpg") no-repeat fixed;
@@ -885,6 +877,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #FF802C;
 }
 /* End Banner Area fachadas */
+
 /* Banner Area cubiertas */
 .banner_area_cubiertas {
   background: url("../imagenes/banner-cubiertas.jpg") no-repeat fixed;
@@ -923,7 +916,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #FF802C;
 }
 /* End Banner Area cubiertas */
-/*--------------------------------------------------*/
+
 /* Banner Area promocion */
 .banner_area_promo {
   background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
@@ -961,9 +954,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_promo .breadcrumb li a.active {
   color: #FF802C;
 }
-}
 /* End Banner Area promocion */
-.
+
 /* Banner Area impermebilizacion */
 .banner_area_impermeabilizacion {
   background: url("../imagenes/banner-imperme.jpg") no-repeat fixed;
@@ -1001,8 +993,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_impermeabilizacion .breadcrumb li a.active {
   color: #FF802C;
 }
-/* End Banner Area cubiertas */
-/*--------------------------------------------------*/
+/* End Banner Area impermebilizacion */
+
 /* Banner Area pavimentos */
 .banner_area_pavimentos {
   background: url("../imagenes/banner-pavimentos.jpg") no-repeat fixed;
@@ -1040,9 +1032,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_pavimentos .breadcrumb li a.active {
   color: #FF802C;
 }
-
 /* End Banner Area pavimentos */
-/*--------------------------------------------------*/
+
 /* Banner Area rehabilitacion */
 .banner_area_rehabilitacion {
   background: url("../imagenes/banner-rehabilitacion.jpg") no-repeat fixed;
@@ -1080,8 +1071,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area_rehabilitacion .breadcrumb li a.active {
   color: #FF802C;
 }
+/* End banner Area rehabilitacion */
 
-/*--------------------------------------------------*/
 /* about_us_area */
 .about_us_area {
   background: #479CC0;
@@ -1131,9 +1122,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .about_us_area .about_us2_pages {
   padding-top: 90px;
 }
-
 /* End about_us_area */
-/*--------------------------------------------------*/
+
 .what_we_area {
   background: #9A9A9A;
 }
@@ -1195,7 +1185,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-size: 35px;
 }
 
-/*--------------------------------------------------*/
 .our_feature_area {
   padding-bottom: 90px;
   background: #fefefe;
@@ -1241,7 +1230,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 20px;
 }
 
-/*--------------------------------------------------*/
 /* our_services_area */
 .our_services_area {
   background: #2e3841;
@@ -1352,8 +1340,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .grid-sizer {
   width: 33.33333333%;
 }
-
 /* End our_services_area */
+
 /* our_services_tow */
 .our_services_tow {
   background: #f5f5f5;
@@ -1429,9 +1417,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .grid-sizer-2 {
   width: 41.66666667%;
 }
+/* End our_services_tow */
 
-/* our_services_tow */
-/*--------------------------------------------------*/
 .our_team_area {
   padding-bottom: 70px;
   background: #fefefe;
@@ -1505,7 +1492,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 50px;
 }
 
-/*--------------------------------------------------*/
 /* Our Partners Area */
 .our_partners_area {
   background: #f5f5f5;
@@ -1539,9 +1525,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   border-radius: 10px;
   color: #fff;
 }
-
 /* End Our Partners Area */
-/*--------------------------------------------------*/
+
 .featured_works {
   background: url("../imagenes/protfolio_bg.jpg") no-repeat fixed;
   background-position: center;
@@ -1639,7 +1624,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   left: 0;
 }
 
-/*--------------------------------------------------*/
 /* latest_blog_area */
 .latest_blog_area {
   padding-bottom: 70px;
@@ -1695,8 +1679,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .latest_blog_area .latest_blog .blog_content p a:hover, .latest_blog_area .latest_blog .blog_content p a:focus {
   color: #FF802C;
 }
-
 /* End latest_blog_area */
+
 /* blog_tow_area */
 .blog_tow_area {
   padding-top: 100px;
@@ -1764,9 +1748,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 15px;
   padding-bottom: 5px;
 }
-
 /* End blog_tow_area */
-/*--------------------------------------------------*/
+
 .call_min_area {
   background: #FF802C;
   text-align: center;
@@ -1797,7 +1780,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-left: 0;
 }
 
-/*--------------------------------------------------*/
 .building_construction_area .building_construction_row {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -1912,7 +1894,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 #descripcion {
   text-align: justify;
 }
-/*--------------------------------------------------*/
+
 /* blog area */
 .blog_all .blog_row {
   padding: 100px 0;
@@ -2232,9 +2214,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #888;
   font-size: 14px;
 }
-
 /* End blog area */
-/*--------------------------------------------------*/
+
 .not_found_area {
   text-align: center;
   padding: 100px 0;
@@ -2292,7 +2273,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------*/
 /* Map Css */
 .contact_map iframe {
   height: 495px;
@@ -2300,6 +2280,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /* End Map Css */
+
 /* All contact Info Css */
 .all_contact_info .contact_row {
   padding: 100px 0;
@@ -2389,9 +2370,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #FF802C;
   background: #222222;
 }
-
 /* End All contact Info Css */
-/*--------------------------------------------------*/
+
 .footer_area {
   background: url("../imagenes/footer.jpg") no-repeat;
   position: relative;
@@ -2561,7 +2541,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fefefe;
 }
 
-/*--------------------------------------------------*/
 @media (max-width: 1700px) {
   .slider_area_tow .slider_inner .camera_prev::after {
     left: 0px !important;
@@ -3022,6 +3001,4 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 10px;
   }
 }
-/*--------------------------------------------------*/
-
 /*# sourceMappingURL=style.css.map */
