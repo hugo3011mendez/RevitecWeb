@@ -1,6 +1,6 @@
 window.ENV = {
     ApiURL: 'https://localhost:5006/',
-    MainColor: '#1f4293',
+    MainColor: '#FF802C',
     AltColor: '#ffffff',
     Test: false
 }

@@ -1,25 +1,3 @@
-.dossier p, .dossier ul{
-    text-align: left;
-}
-
-.aboutUs {
-    background-color: #00B2E0;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
-
-.teletext {
-    font-size: 14px;
-}
-@keyframes moveTeletext {
-    0% {
-        transform: translateX(325%);
-    }
-
-    100% {
-        transform: translateX(-325%);
-    }
-}
 
 @media (max-width: 576px) {
     .overTitle {
