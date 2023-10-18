@@ -1,0 +1,34 @@
+.wide-block, .wide-block > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 35rem;
+    height: 14rem;
+    max-height: 24vh;
+}
+
+.wide-block {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.wide-block > * {
+    position: absolute;
+    pointer-events: none;
+}
+
+.blurred-bg {
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    pointer-events: auto;
+}
+
+.blurred-bg:hover {
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}

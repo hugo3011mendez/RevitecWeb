@@ -29,27 +29,33 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
-        <style>
-            .footer_area .copyright_area ul{
-                display:inline-block;
-                list-style-type: none;
-            }
+    <style>
+        .footer_area .copyright_area ul{
+            display:inline-block;
+            list-style-type: none;
+        }
 
-            .footer_area .copyright_area ul li a{
-                margin-left: 5em;
-            }
+        .footer_area .copyright_area ul li a{
+            margin-left: 5em;
+        }
+
+        .banner_area{
+            background: url("./imagenes/banner-rehabilitacion.jpg") no-repeat fixed;
+        }
+
         /* Media query Logo */
         @media (max-width: 991px) {
             .container .col-md-2 .navbar-header a img{
                 width: 175px;
             }
 
-           }
-       img {
+        }
+
+        img {
             max-width :100%;
         }
-        .caja {
 
+        .caja {
             margin-top: 20px;
             margin-bottom: 20px;  
               
@@ -62,18 +68,18 @@
             vertical-align: top;
             width:30%
         }
+
         #conta {
-            margin-top: 60px;
+            margin-top: 50px;
         }
 
         h4 {
             padding-top: 10px;
             padding-bottom: 2px;
         }
-        </style>
-        
-
+    </style>
 </head>
+
 <body>
      <!-- Preloader -->
      <div class="preloader"></div>
@@ -114,7 +120,6 @@
                          </li>
                          <li><a href="galeria.html">Galeria</a></li>
                          <li><a href="contacto.html">Contacto</a></li>
-                         <li><a href="noticias.html">Noticias</a></li>
                      </ul>
                  </div><!-- /.navbar-collapse -->
              </div>
@@ -123,7 +128,7 @@
      <!-- End Header_Area -->
 
     <!-- Banner area -->
-    <section class="banner_area_rehabilitacion" data-stellar-background-ratio="0.5">
+    <section class="banner_area" data-stellar-background-ratio="0.5">
         <h2>REHABILITACION</h2>
         <ol class="breadcrumb">
             <li><a href="index.html">Inicio</a></li>
@@ -145,7 +150,6 @@
                 <p>Reconstrucción de paredes, alisado y pintado de las mismas</p>
             </div>
     </section>
-
   
     <!-- End blog-2 area -->
 
@@ -214,6 +218,6 @@
                 $(this).removeClass('transition');
             });
         });
-        </script>
+    </script>
 </body>
 </html>

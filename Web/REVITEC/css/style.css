@@ -11,7 +11,7 @@ This files contents are outlined below.
 
 	1. Variables
 	2. Prefix
-	3. header
+	3. Header
 	4. Slider
     5. Builder
     6. About
@@ -37,22 +37,18 @@ img.zoom {
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
-  
 }
 
-.transition {
-  
-  -webkit-transform: scale(2.5); 
+.transition {  
+  -webkit-transform: scale(2.0);
   box-shadow: 1px 15px 10px rgba(0,0,0,0.7);
-  -moz-transform: scale(2.5);
-  -o-transform: scale(2.5);
-  transform: scale(2.5);
+  -moz-transform: scale(2.0);
+  -o-transform: scale(2.0);
+  transform: scale(2.0);
+}
+/*----------------------- Fin imagen zoom -----------------*/
 
-		
-  }
-/*----------------------- fin imagen zoom -----------------*/
-
-/*---------------botones-------------------------------------*/
+/*--------------- Botones-------------------------------------*/
 .btn3d {
   position:relative;
   top: -6px;
@@ -142,7 +138,7 @@ img.zoom {
   background-color: #bb39d7;
 }
 
-/*-----------------botones---------------------------------*/
+/*----------------- Botones ---------------------------------*/
 
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
 /*Color Variables*/
@@ -188,7 +184,7 @@ img.zoom {
   transform: scaleY(1);
 }
 
-/* Section Title*/
+/* Section Title */
 .tittle {
   text-align: center;
   text-transform: uppercase;
@@ -253,7 +249,7 @@ img.zoom {
 }
 
 /*--------------------------------------------------*/
-/*Prefix Styles*/
+/* Prefix Styles */
 .m0 {
   margin: 0;
 }
@@ -264,7 +260,7 @@ img.zoom {
 
 body {
   font-family: "Roboto", sans-serif;
-  /*Section Fix*/
+  /* Section Fix */
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   margin: 0;
@@ -279,7 +275,7 @@ body section.row, body header.row, body footer.row {
   margin: 0;
 }
 
-/*Ancore*/
+/* Ancore */
 a, .btn, button {
   outline: none;
   transition: all 300ms linear 0s;
@@ -542,9 +538,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background-color: transparent;
 }
 
-/* header area 2 */
+/* Header area 2 */
 /*--------------------------------------------------*/
-/* slider_area */
+/* Slider_area */
 .slider_area .slider_inner .camera_caption {
   height: 100%;
 }
@@ -645,7 +641,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 /* End slider_area */
-/* slider_area_tow */
+/* Slider_area_tow */
 .slider_area_tow .slider_inner .camera_caption div .container {
   width: 1170px !important;
   text-align: left;
@@ -674,13 +670,15 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-bottom: 400px;
+  padding-bottom: 100px;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 .banner_area:after {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   left: 0;
   right: 0;
   bottom: 0;
@@ -704,16 +702,16 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .banner_area .breadcrumb li a.active {
   color: #FF802C;
 }
-
 /* End Banner Area */
-/* Banner Area error */
-.banner_area_error {
+
+/* Error content */
+.error_content {
   background: url("../imagenes/error404.png") no-repeat;
   background-position: center;
   z-index: 1;
   padding-bottom:800px;
 }
-.banner_area_error:after {
+.error_content:after {
   content: "";
   position: absolute;
   top: 0;
@@ -727,362 +725,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background-color: transparent;
   padding-top: 25px;
 }
+/* End Error content */
 
-
-/* End Banner Area error*/
-/* Banner Area noticias */
-.banner_area_noticias {
-  background: url("../imagenes/banner-noticias.png") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_noticias:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_noticias h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_noticias .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_noticias .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_noticias .breadcrumb li a.active {
-  color: #FF802C;
-}
-
-/* End Banner Area noticias */
-/* Banner Area acustica */
-.banner_area_acustica {
-  background: url("../imagenes/banner-acustica.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom:180px;
-}
-.banner_area_acustica:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_acustica h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_acustica .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_acustica .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_acusticas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area acustica */
-/*--------------------------------------------------*/
-/* Banner Area reformas */
-.banner_area_reformas {
-  background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_reformas:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_reformas h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_reformas .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_reformas .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_reformas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area reformas */
-/*--------------------------------------------------*/
-/* Banner Area fachadas */
-.banner_area_fachadas {
-  background: url("../imagenes/banner-fachadas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_fachadas:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_fachadas h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_fachadas .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_fachadas .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_fachadas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area fachadas */
-/* Banner Area cubiertas */
-.banner_area_cubiertas {
-  background: url("../imagenes/banner-cubiertas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 240px;
-}
-.banner_area_cubiertas:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_cubiertas h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_cubiertas .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_cubiertas .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_cubiertas .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area cubiertas */
-/*--------------------------------------------------*/
-/* Banner Area promocion */
-.banner_area_promo {
-  background: url("../imagenes/banner-reformas.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_promo:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_promo h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_promo .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_promo .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_promo .breadcrumb li a.active {
-  color: #FF802C;
-}
-}
-/* End Banner Area promocion */
-.
-/* Banner Area impermebilizacion */
-.banner_area_impermeabilizacion {
-  background: url("../imagenes/banner-imperme.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 150px;
-}
-.banner_area_impermeabilizacion:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 8, 0.6);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_impermeabilizacion h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_impermeabilizacion .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_impermeabilizacion .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_impermeabilizacion .breadcrumb li a.active {
-  color: #FF802C;
-}
-/* End Banner Area cubiertas */
-/*--------------------------------------------------*/
-/* Banner Area pavimentos */
-.banner_area_pavimentos {
-  background: url("../imagenes/banner-pavimentos.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_pavimentos:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_pavimentos h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_pavimentos .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_pavimentos .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_pavimentos .breadcrumb li a.active {
-  color: #FF802C;
-}
-
-/* End Banner Area pavimentos */
-/*--------------------------------------------------*/
-/* Banner Area rehabilitacion */
-.banner_area_rehabilitacion {
-  background: url("../imagenes/banner-rehabilitacion.jpg") no-repeat fixed;
-  background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  padding-bottom: 180px;
-}
-.banner_area_rehabilitacion:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  z-index: -1;
-}
-.banner_area_rehabilitacion h2 {
-  color: #fff;
-  font: 400 40px "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 85px;
-}
-.banner_area_rehabilitacion .breadcrumb {
-  background-color: transparent;
-  padding-top: 15px;
-}
-.banner_area_rehabilitacion .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
-}
-.banner_area_rehabilitacion .breadcrumb li a.active {
-  color: #FF802C;
-}
-
-/*--------------------------------------------------*/
-/* about_us_area */
+/* About_us_area */
 .about_us_area {
   background: #479CC0;
 }
@@ -1131,9 +776,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .about_us_area .about_us2_pages {
   padding-top: 90px;
 }
-
 /* End about_us_area */
-/*--------------------------------------------------*/
+
 .what_we_area {
   background: #9A9A9A;
 }
@@ -1195,7 +839,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-size: 35px;
 }
 
-/*--------------------------------------------------*/
 .our_feature_area {
   padding-bottom: 90px;
   background: #fefefe;
@@ -1241,8 +884,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 20px;
 }
 
-/*--------------------------------------------------*/
-/* our_services_area */
+/* Our_services_area */
 .our_services_area {
   background: #2e3841;
   padding-bottom: 100px;
@@ -1347,14 +989,14 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:hover .gallery_hover ul, .our_services_area .portfolio_inner_area .portfolio_item .single_facilities .single_facilities_inner:focus .gallery_hover ul {
   right: 0;
 }
+/* End our_services_area */
 
 /* grid-sizer css */
 .grid-sizer {
   width: 33.33333333%;
 }
 
-/* End our_services_area */
-/* our_services_tow */
+/* Our_services_tow */
 .our_services_tow {
   background: #f5f5f5;
   padding-bottom: 100px;
@@ -1429,9 +1071,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .grid-sizer-2 {
   width: 41.66666667%;
 }
+/* End Our_services_tow */
 
-/* our_services_tow */
-/*--------------------------------------------------*/
 .our_team_area {
   padding-bottom: 70px;
   background: #fefefe;
@@ -1505,7 +1146,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 50px;
 }
 
-/*--------------------------------------------------*/
 /* Our Partners Area */
 .our_partners_area {
   background: #f5f5f5;
@@ -1539,9 +1179,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   border-radius: 10px;
   color: #fff;
 }
-
 /* End Our Partners Area */
-/*--------------------------------------------------*/
+
 .featured_works {
   background: url("../imagenes/protfolio_bg.jpg") no-repeat fixed;
   background-position: center;
@@ -1639,8 +1278,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   left: 0;
 }
 
-/*--------------------------------------------------*/
-/* latest_blog_area */
+/* Latest_blog_area */
 .latest_blog_area {
   padding-bottom: 70px;
   background: #fefefe;
@@ -1695,9 +1333,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .latest_blog_area .latest_blog .blog_content p a:hover, .latest_blog_area .latest_blog .blog_content p a:focus {
   color: #FF802C;
 }
-
 /* End latest_blog_area */
-/* blog_tow_area */
+
+/* Blog_tow_area */
 .blog_tow_area {
   padding-top: 100px;
   padding-bottom: 70px;
@@ -1764,9 +1402,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 15px;
   padding-bottom: 5px;
 }
-
 /* End blog_tow_area */
-/*--------------------------------------------------*/
+
 .call_min_area {
   background: #FF802C;
   text-align: center;
@@ -1797,7 +1434,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   margin-left: 0;
 }
 
-/*--------------------------------------------------*/
 .building_construction_area .building_construction_row {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -1911,9 +1547,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 #descripcion {
   text-align: justify;
+  color: black;
 }
-/*--------------------------------------------------*/
-/* blog area */
+
+/* Blog area */
 .blog_all .blog_row {
   padding: 100px 0;
 }
@@ -2232,9 +1869,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #888;
   font-size: 14px;
 }
-
 /* End blog area */
-/*--------------------------------------------------*/
+
 .not_found_area {
   text-align: center;
   padding: 100px 0;
@@ -2292,14 +1928,13 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fff;
 }
 
-/*--------------------------------------------------*/
 /* Map Css */
 .contact_map iframe {
   height: 495px;
   width: 100%;
 }
-
 /* End Map Css */
+
 /* All contact Info Css */
 .all_contact_info .contact_row {
   padding: 100px 0;
@@ -2389,9 +2024,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #FF802C;
   background: #222222;
 }
-
 /* End All contact Info Css */
-/*--------------------------------------------------*/
+
 .footer_area {
   background: url("../imagenes/footer.jpg") no-repeat;
   position: relative;
@@ -2561,7 +2195,6 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fefefe;
 }
 
-/*--------------------------------------------------*/
 @media (max-width: 1700px) {
   .slider_area_tow .slider_inner .camera_prev::after {
     left: 0px !important;
@@ -3022,6 +2655,5 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 10px;
   }
 }
-/*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */

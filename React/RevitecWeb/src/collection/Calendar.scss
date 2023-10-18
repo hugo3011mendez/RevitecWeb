@@ -1,0 +1,40 @@
+.fc .fc-daygrid-body, .fc .fc-popover {
+    z-index: 0 !important;
+}
+
+/* pointer and hover */
+
+.fc-event, .fc-daygrid-day:not(.fc-day-disabled), .fc-list-day {
+    cursor: pointer;
+}
+
+.fc-daygrid-day:not(.fc-day-disabled):hover {
+    background-color: #eef !important;
+}
+
+/* red weekends */
+
+.fc-daygrid-day:not(.fc-day-disabled).fc-day-sat, .fc-daygrid-day:not(.fc-day-disabled).fc-day-sun {
+    background-color: #fee;
+}
+
+/* footer first */
+
+.fc-media-screen {
+    display: flex;
+    flex-flow: column;
+}
+
+.fc-header-toolbar {
+    order: 2;
+    margin-top: 1rem !important;
+}
+
+.fc-view-harness {
+    order: 3;
+}
+
+.fc-footer-toolbar {
+    order: 1;
+    margin-top: revert !important;
+}
