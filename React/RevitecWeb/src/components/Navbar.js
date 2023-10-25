@@ -1,7 +1,6 @@
-import React, { useState, useContext } from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import React from 'react';
+import { Container, Navbar, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import BsButton from '../collection/bootstrap/BsButton'
 import imgLogoRevitec from '../resources/logo_revitec.png'
 
 export default function NavigationBar(props) {

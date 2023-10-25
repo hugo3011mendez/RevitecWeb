@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.scss';
 import Navbar from './components/Navbar';
 import Test from './Test';
 import WebRoutes from './WebRoutes';
+import Footer from './components/Footer';
 
 export default function App(props) {
 
@@ -16,5 +17,7 @@ export default function App(props) {
         {
             window.ENV.Test ? rTest : rRoutes()
         }
+
+        <Footer />
     </>;
 }
